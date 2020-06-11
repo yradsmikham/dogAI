@@ -29,8 +29,12 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'dog_sitting':
+    if row_label == 'dog_sit':
         return 1
+    elif row_label == 'dog_down':
+        return 2
+    elif row_label == 'dog_stand':
+        return 3
     else:
         None
 
@@ -84,11 +88,11 @@ def create_tf_example(group, path):
 def main(_):
 
     print(os.getcwd())
-    writer = tf.compat.v1.python_io.TFRecordWriter('dogSit/test.record')
+    writer = tf.compat.v1.python_io.TFRecordWriter('images/test.record')
     # path = os.path.join(FLAGS.image_dir)
-    path = 'dogSit/test'
+    path = 'images/test'
     # examples = pd.read_csv(FLAGS.csv_input)
-    examples = pd.read_csv('dogSit/test_labels.csv')
+    examples = pd.read_csv('images/test_labels.csv')
     grouped = split(examples, 'filename')
     for group in grouped:
         tf_example = create_tf_example(group, path)

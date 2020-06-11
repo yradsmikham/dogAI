@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>190.jpg</filename>
+	<path>/Users/yvonneradsmikham/projects/dogAI/raw data/test/190.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog_down</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>82</xmin>
+			<ymin>43</ymin>
+			<xmax>607</xmax>
+			<ymax>572</ymax>
+		</bndbox>
+	</object>
+</annotation>

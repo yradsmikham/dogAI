@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>22.jpeg</filename>
+	<path>/Users/yvonneradsmikham/projects/dogAI/dogSit/train/22.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>259</width>
+		<height>195</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog_sit</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>132</xmin>
+			<ymin>48</ymin>
+			<xmax>187</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+</annotation>

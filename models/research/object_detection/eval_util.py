@@ -19,7 +19,7 @@ import time
 
 import numpy as np
 import tensorflow as tf
-import tf_slim as slim
+#import tf_slim as slim
 
 from object_detection.core import box_list
 from object_detection.core import box_list_ops
@@ -32,7 +32,7 @@ from object_detection.utils import ops
 from object_detection.utils import shape_utils
 from object_detection.utils import visualization_utils as vis_utils
 
-# slim = tf.contrib.slim
+slim = tf.contrib.slim
 
 # A dictionary of metric names to classes that implement the metric. The classes
 # in the dictionary must implement

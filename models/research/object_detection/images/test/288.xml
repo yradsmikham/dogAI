@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>288.jpeg</filename>
+	<path>/Users/yvonneradsmikham/projects/dogAI/raw data/test/288.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog_stand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>141</xmin>
+			<ymin>77</ymin>
+			<xmax>683</xmax>
+			<ymax>556</ymax>
+		</bndbox>
+	</object>
+</annotation>

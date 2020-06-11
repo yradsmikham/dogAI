@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>218.jpeg</filename>
+	<path>/Users/yvonneradsmikham/projects/dogAI/raw data/train/218.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog_stand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>187</ymin>
+			<xmax>493</xmax>
+			<ymax>510</ymax>
+		</bndbox>
+	</object>
+</annotation>
